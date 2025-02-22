@@ -30,7 +30,7 @@ WebScr.exe -u target.txt -t 20     访问target.txt文件内的URL并截图, 且
 其他用法
 
 ```
-WebScr.exe -u target.txt -o C:\image     访问target.txt文件内的URL并截图, 且图片保存路径为C:\image (自动创建iamge目录)
+WebScr.exe -u target.txt -o C:\image     访问target.txt文件内的URL并截图, 且图片保存路径为C:\image (自动创建image目录)
 ```
 
 # 免责声明
