@@ -38,7 +38,7 @@ WebScr.exe -f target.txt -o C:\image -t 20 -r 5 -wT 80 设置线程为20, 重试
 ```
 
 # 运行截图
-![image]([xxx.png](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-08_11-22-01.png))
+![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-08_11-22-01.png))
 
 # 免责声明
 
