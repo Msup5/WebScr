@@ -17,6 +17,7 @@ WebScr是一款使用Go语言开发的工具，它能批量访问URL并截取首
   -r          重试次数, 默认3
   -wT         等待时间, 默认60s
   -eT         额外等待时间, 默认10s
+  -re		      获取 ip, title, status,server
 ```
 
 # 使用说明
@@ -34,7 +35,8 @@ WebScr.exe -f target.txt -t 20     访问target.txt文件内的URL并截图, 且
 
 ```
 WebScr.exe -f target.txt -o C:\image     访问target.txt文件内的URL并截图, 且图片保存路径为C:\image (自动创建image目录)
-WebScr.exe -f target.txt -o C:\image -t 20 -r 5 -wT 80 设置线程为20, 重试次数5, 等待时间80s
+WebScr.exe -f target.txt -o C:\image -t 20 -r 5 -wT 80 访问target.txt文件内的URL并截图, 且图片保存路径为C:\image，并设置线程为20, 重试次数5, 等待时间80s
+WebScr.exe -f target.txt -o C:\image -t 20 -re true 访问target.txt文件内的URL并截图, 且图片保存路径为C:\image，并且获取目标 ip, title, status, server, 保存路径为results/results.csv
 ```
 
 # 运行截图
@@ -46,6 +48,7 @@ WebScr.exe -f target.txt -o C:\image -t 20 -r 5 -wT 80 设置线程为20, 重试
 
 # 更新
 ## 2025 更新
+更新了一个请求功能以及其他小改动
 增加了一些功能
 # 旧版本
 无需下载整个文件, 存在已知BUG, 未修复且不再维护
