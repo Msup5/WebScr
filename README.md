@@ -17,7 +17,7 @@ WebScr是一款使用Go语言开发的工具，它能批量访问URL并截取首
   -r          重试次数, 默认3
   -wT         等待时间, 默认60s
   -eT         额外等待时间, 默认10s
-  -re		      获取 ip, title, status,server
+  -re         获取 ip, title, status,server
 ```
 
 # 使用说明
