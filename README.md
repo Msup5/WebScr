@@ -48,7 +48,9 @@ WebScr.exe -f target.txt -o C:\image -t 20 -re true 访问target.txt文件内的
 
 # 更新
 ## 2025 更新
+
 更新了一个请求功能以及其他小改动
+
 增加了一些功能
 # 旧版本
 无需下载整个文件, 存在已知BUG, 未修复且不再维护
