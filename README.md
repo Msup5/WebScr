@@ -29,9 +29,9 @@ WebScr是一款基于Go语言开发的工具，它能批量访问URL并截取首
 简单用法
 
 ```
-WebScr.exe -f url.txt           						访问url.txt文件内的URL并截图
-WebScr.exe -f url.txt -t 20     						访问url.txt文件内的URL并截图, 且设置线程为20
-WebScr.exe -f url.txt --html-output example.html 	将所有结果输出为html文件（推荐）
+WebScr.exe -f url.txt           						       访问url.txt文件内的URL并截图
+WebScr.exe -f url.txt -t 20     						       访问url.txt文件内的URL并截图, 且设置线程为20
+WebScr.exe -f url.txt --html-output example.html 	 将所有结果输出为html文件（推荐）
 ```
 
 其他用法
@@ -48,21 +48,21 @@ WebScr.exe -f url.txt -o C:\image -t 20 -re true 访问url.txt文件内的URL并
 WebScr.exe -f url.txt
 ```
 
-![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-19-09.png)
+![image](https://github.com/Msup5/WebScr/docs/2025-03-10_20-19-09.png)
 
 ```
 WebScr.exe -f url.txt --html-output example.html
 ```
 
-![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_19-18-30.png)
+![image](https://github.com/Msup5/WebScr/docs/2025-03-10_19-18-30.png)
 
-![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-07-00.png)
+![image](https://github.com/Msup5/WebScr/docs/2025-03-10_20-07-00.png)
 
 ```
 WebScr.exe -f url.txt -re true
 ```
 
-![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-032025-03-10_20-10-25.png)
+![image](https://github.com/Msup5/WebScr/docs/2025-032025-03-10_20-10-25.png)
 
 # 免责声明
 
