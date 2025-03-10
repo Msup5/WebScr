@@ -45,13 +45,13 @@ WebScr.exe -f url.txt -o C:\image -t 20 -re true 访问url.txt文件内的URL并
 # 运行截图
 
 ```
-WebScr.exe -f url.txt
+WebScr.exe -f url.txt  访问 url.txt 文件并截图
 ```
 
 ![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-19-09.png)
 
 ```
-WebScr.exe -f url.txt --html-output example.html
+WebScr.exe -f url.txt --html-output example.html  将所有结果输出成 html 文件
 ```
 
 ![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_19-18-30.png)
@@ -59,7 +59,7 @@ WebScr.exe -f url.txt --html-output example.html
 ![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-07-00.png)
 
 ```
-WebScr.exe -f url.txt -re true  // 获取 ip, title, status,server 并输出cvs文件
+WebScr.exe -f url.txt -re true  获取 ip, title, status,server 并输出cvs文件
 ```
 
 ![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-10-25.png)
