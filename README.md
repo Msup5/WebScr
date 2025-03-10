@@ -48,7 +48,7 @@ WebScr.exe -f url.txt -o C:\image -t 20 -re true 访问url.txt文件内的URL并
 WebScr.exe -f url.txt
 ```
 
-![image](https://github.com/Msup5/WebScr/docs/2025-03-10_20-19-09.png)
+![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-19-09.png)
 
 ```
 WebScr.exe -f url.txt --html-output example.html
@@ -62,7 +62,7 @@ WebScr.exe -f url.txt --html-output example.html
 WebScr.exe -f url.txt -re true
 ```
 
-![image](https://github.com/Msup5/WebScr/docs/2025-032025-03-10_20-10-25.png)
+![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-032025-03-10_20-10-25.png)
 
 # 免责声明
 
