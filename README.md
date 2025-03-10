@@ -31,7 +31,7 @@ WebScr是一款基于Go语言开发的工具，它能批量访问URL并截取首
 ```
 WebScr.exe -f url.txt                              访问url.txt文件内的URL并截图
 WebScr.exe -f url.txt -t 20                        访问url.txt文件内的URL并截图, 且设置线程为20
-WebScr.exe -f url.txt --html-output example.html 	 将所有结果输出为html文件（推荐）
+WebScr.exe -f url.txt --html-output example.html   将所有结果输出为html文件（推荐）
 ```
 
 其他用法
