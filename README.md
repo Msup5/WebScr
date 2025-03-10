@@ -59,7 +59,7 @@ WebScr.exe -f url.txt --html-output example.html
 ![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-07-00.png)
 
 ```
-WebScr.exe -f url.txt -re true
+WebScr.exe -f url.txt -re true  // 获取 ip, title, status,server 并输出cvs文件
 ```
 
 ![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-10-25.png)
