@@ -56,7 +56,7 @@ WebScr.exe -f url.txt --html-output example.html
 
 ![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_19-18-30.png)
 
-![image](https://github.com/Msup5/WebScr/docs/2025-03-10_20-07-00.png)
+![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-07-00.png)
 
 ```
 WebScr.exe -f url.txt -re true
