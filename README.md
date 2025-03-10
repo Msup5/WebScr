@@ -62,7 +62,7 @@ WebScr.exe -f url.txt --html-output example.html
 WebScr.exe -f url.txt -re true
 ```
 
-![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-032025-03-10_20-10-25.png)
+![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-10-25.png)
 
 # 免责声明
 
