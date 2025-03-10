@@ -37,9 +37,9 @@ WebScr.exe -f url.txt --html-output example.html   将所有结果输出为html�
 其他用法
 
 ```
-WebScr.exe -f url.txt -o C:\image     访问target.txt文件内的URL并截图, 且图片保存路径为C:\image (自动创建image目录)
-WebScr.exe -f url.txt -o C:\image -t 20 -r 5 -wT 80 访问url.txt文件内的URL并截图, 且图片保存路径为C:\image，并设置线程为20, 重试次数5, 等待时间80s
-WebScr.exe -f url.txt -o C:\image -t 20 -re true 访问url.txt文件内的URL并截图, 且图片保存路径为C:\image，并且获取目标 ip, title, status, server, 保存路径为results/results.csv
+WebScr.exe -f url.txt -o C:\image                     访问target.txt文件内的URL并截图, 且图片保存路径为C:\image (自动创建image目录)
+WebScr.exe -f url.txt -o C:\image -t 20 -r 5 -wT 80   访问url.txt文件内的URL并截图, 且图片保存路径为C:\image，并设置线程为20, 重试次数5, 等待时间80s
+WebScr.exe -f url.txt -o C:\image -t 20 -re true      访问url.txt文件内的URL并截图, 且图片保存路径为C:\image，并且获取目标 ip, title, status, server, 保存路径为results/results.csv
 ```
 
 # 运行截图
