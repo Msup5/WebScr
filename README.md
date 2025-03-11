@@ -59,7 +59,7 @@ WebScr.exe -f url.txt --html-output example.html  将所有结果输出成 html 
 ![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-07-00.png)
 
 ```
-WebScr.exe -f url.txt -re true  获取 ip, title, status,server 并输出cvs文件
+WebScr.exe -f url.txt -re true  获取 ip, title, status,server 并输出csv文件
 ```
 
 ![image](https://github.com/Msup5/WebScr/blob/main/docs/2025-03-10_20-10-25.png)
@@ -72,7 +72,7 @@ WebScr.exe -f url.txt -re true  获取 ip, title, status,server 并输出cvs文�
 
 # 更新
 ## 2025 更新
-
+- 2025/3/11: 增加了跳过证书验证, 修复了一些 Bug
 - 2025/3/10: 增加了输出 html 文件功能
 
 - 2025/3/9: 增加了一个请求功能和小改动
